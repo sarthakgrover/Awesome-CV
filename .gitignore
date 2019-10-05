@@ -13,6 +13,12 @@
 *.dvi
 *-converted-to.*
 
+## Bib files:
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
 ### Editor ###
 ## Vim & Emacs temp files:
 .*sw[op]
