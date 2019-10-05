@@ -44,8 +44,7 @@
 \setbool{acvSectionColorHighlight}{true}
 
 % If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
+%\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -58,38 +57,49 @@
 %\position{Network Measurements{\enskip\cdotp\enskip}Security Expert}
 %\address{New Delhi, INDIA}
 
-\mobile{(+91) 79821 30021}
-\email{sgrover@protonmail.ch}
-\homepage{sarthakgrover.github.io}
-\github{shahifaqeer}
-\linkedin{groversarthak}
+%% put mobile, email in separate lines; 3 social media in one line; and webpage in next line
+%\mobile{(+91) 79821 30021 \quad\textbar\quad (+1) (760) 575-4677}
+%\email{sgrover@protonmail.ch \quad\textbar\quad grover.srthk@gmail.com}
+%\linkedin{groversarthak}
+%\github{shahifaqeer}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
-% \skype{skype-id}
+%\skype{shahifaqeer}
 % \reddit{reddit-id}
 % \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
+% \googlescholar{ICV_lkwAAAAJ}{sgrover}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
+%% homepage is always last line in /makeheadertwocolumn
+%\homepage{sarthakgrover.github.io}
 
 %\quote{``Be the change that you want to see in the world."}
+
+%% Limited Info
+\mobile{(+91) 79821 30021}
+\email{sgrover@protonmail.ch}
+\linkedin{groversarthak}
+\skype{shahifaqeer}
+\homepage{sarthakgrover.github.io}
+
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
+%\makecvheader[L]
+\makecvheadertwocolumn[L]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
+
 \makecvfooter
   {\today}
   {Sarthak Grover~~~·~~~Résumé}
   {\thepage}
-
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
