@@ -70,19 +70,29 @@
 % \medium{madium-id}
 % \googlescholar{ICV_lkwAAAAJ}{sgrover}
 %% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
+%\googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 %% homepage is always last line in /makeheadertwocolumn
 %\homepage{sarthakgrover.github.io}
 
 %\quote{``Be the change that you want to see in the world."}
 
-%% Limited Info
+%% Limited Info - hack - linkedin always first in list of social media
 \mobile{(+91) 79821 30021}
 \email{sgrover@protonmail.ch}
 \linkedin{groversarthak}
 \skype{shahifaqeer}
 \homepage{sarthakgrover.github.io}
+
+
+%-------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\addbibresource{sgrover/references.bib}
+%% XeLaTeX generates aux and bcf files
+%% RUN biber sgrover_resume.bcf
+%% Rerun XeLaTeX to get publications section
+%% Separate first author name using {\ } so that bibtex does not split it
 
 
 %-------------------------------------------------------------------------------
@@ -105,15 +115,17 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{sgrover/summary.tex}
-\input{sgrover/experience.tex}
-\input{sgrover/honors.tex}
-\input{sgrover/presentation.tex}
-\input{sgrover/writing.tex}
-\input{sgrover/committees.tex}
-\input{sgrover/education.tex}
-\input{sgrover/extracurricular.tex}
 
+\input{sgrover/summary.tex}
+\input{sgrover/education.tex}
+\input{sgrover/skills.tex}
+\input{sgrover/experience.tex}
+%\input{sgrover/interns.tex}
+\input{sgrover/honors.tex}
+%\input{sgrover/presentation.tex}
+%\input{sgrover/writing.tex}
+\input{sgrover/publications.tex}
+\input{sgrover/extracurricular.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
