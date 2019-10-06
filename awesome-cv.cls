@@ -392,11 +392,12 @@
 \newcommand{\acvHeaderAfterPositionSkip}{.4mm}
 \newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
 \newcommand{\acvHeaderIconSep}{\space}
-\newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-% For 2 column header
-\newcommand{\acvHeaderSocialNewLine}{\\}
+%\newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\newcommand{\acvHeaderSocialSep}{\quad}
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+% For 2 column header
+\newcommand{\acvHeaderSocialNewLine}{\\}
 
 % Others
 \newcommand{\acvSectionTopSkip}{3mm}
