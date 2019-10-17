@@ -45,6 +45,9 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 %\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% New command for links
+\newcommand\link[2]{\href{#1}{[Link]}} 
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -88,11 +91,11 @@
 %	BIBLIOGRAPHY
 %-------------------------------------------------------------------------------
 \addbibresource{sgrover/references.bib}
-%% XeLaTeX generates aux and bcf files
-%% RUN biber sgrover_resume.bcf
-%% Rerun XeLaTeX to get publications section
+%% Instructions: https://github.com/aminmkhan/Awesome-CV
+%% XeLaTeX generates aux and bcf files $ xelatex {your-cv}.tex
+%% RUN biber sgrover_resume $ biber {your-cv}
+%% Rerun XeLaTeX to get publications section $ xelatex {your-cv}.tex
 %% Separate first author name using {\ } so that bibtex does not split it
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
