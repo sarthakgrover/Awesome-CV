@@ -10,19 +10,19 @@
 
 %---------------------------------------------------------
   \cventry
-    {Business Manager} % Job title
+    {Assistant Manager and Freelance Researcher} % Job title
     {Sugandhaa Co., Ltd.} % Organization
     {New Delhi, INDIA} % Location
     {Apr. 2018 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Leading a family owned business. Responsible for inventory, account management, directing sales and delivery.}
+      \item {Leading a family-owned business. Responsible for inventory, account management, conducting sales, and delivery services.}
       \item {Proficient in interacting directly with customers and managing daily finances to ensure smooth business operations.}
 %      
-      \item {\textbf{Network anomaly detection:} Designed and implemented an anomaly detection algorithm for netflow records.
+      \item {\textbf{Network anomaly detection:} Designed and implemented an anomaly detection algorithm for NetFlow records.
       		\link{https://github.com/shahifaqeer/netflow-anomaly-detector}}
       \item {Used machine learning to extract and transform packet features and detect anomalous behavior in real-time.}
-      \item {Successfully identified port scans and DoS activity using statistical, information-theoretic, and clustering based approach.}
+      \item {Successfully identified port scans and DoS activity using statistical, information-theoretic, and clustering-based approaches.}
 %      
       \item {\textbf{CDN performance analysis:} Developed a CDN estimation algorithm for websites using xcache, whois, parsing, and DNS.
       		\link{https://github.com/shahifaqeer/cdn-analysis}}
@@ -51,24 +51,30 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Advisers: Prof. Nick Feamster (University of Chicago) and Dr. Roya Ensafi (University of Michigan)}
 %      
-      \item {\textbf{IoT fingerprinting and real-time query system:} Analyzed packets of various IoT devices in lab using pcap, extracted relevant features to identify devices and outliers.
+      \item {\textbf{Identifying Internet of Things (IoTs):} Captured and analyzed packets from various IoT devices in the lab.
       		\link{https://github.com/shahifaqeer/iot-dns}}
-      \item {Simulated user behavior and captured activity periods and background traffic for 10 different IoTs.}
-      \item {Developed a filtering algorithm to discard non-IoT traffic at ISP.
+      \item {Used machine learning to extract and transform (FFT, PCA, MMT, KDE) volumetric and distribution features from packet headers.}
+      \item {Used clustering (kmeans, Spectral, MeanShift, DBSCAN) to identify IoTs, and distinguish activity and background traffic.}
+      \item {Built an IoT behavior monitor and demonstrated that it successfully detects DDoS attack anomalies using DBSCAN.
+      		\link{https://github.com/shahifaqeer/IoTAnomalyDetection}}
+%      
+      \item {\textbf{Real-time IoT query system:} Developed a filtering algorithm to discard non-IoT network traffic using DNS queries.
       		\link{https://github.com/shahifaqeer/oit-dns}}
-      \item {Transformed network traffic using FFT and PCA, and utilized clustering techniques to successfully identify different IoT devices.}
-      \item {Implemented data pipeline in Spark to cluster IoT traffic and detect outlier devices.}
+      \item {Implemented an exploratory ETL pipeline in PySpark to extract packet header features and cluster IoT network traffic.}
 %      
-      \item {\textbf{Security and privacy of the Internet of Things:} Tested multiple IoT devices in lab and exposed security and privacy issues at PrivacyCon 2016.
+      \item {\textbf{Internet of Unpatched Things:} Tested multiple IoT devices in the lab and exposed their vulnerabilities.
       		\link{https://www.cs.princeton.edu/news/citp-stitching-internet-things}}
-      \item {Found that a digital photoframe was susceptible to eavesdroppers and fails to encrypt photographs, and nest thermostat exposed private location information of nearest weather stations to the ISP (now patched).}
+      \item {Found that PixStar's digital photo frame was susceptible to eavesdroppers and fails to encrypt photographs, and the Nest thermostat exposed private location information of nearest weather stations to the ISP (now patched).}
 %      		
-      \item {\textbf{Broadband traffic analysis:} Analyzed broadband usage patterns of a user group offered higher speed broadband without their knowledge.
+      \item {\textbf{Broadband traffic analysis:} Analyzed usage behavior of customers offered higher speed broadband without their knowledge.}
+      \item {Found that difference in traffic demand was higher for moderate users as compared to high-volume subscribers.
+      		\link{https://github.com/shahifaqeer/comcast-analysis}}
+      \item {Presented at PAM (Mar 2016), CableLabs (Jul 2016), and FCC (Oct 2016).
       		\link{https://www.youtube.com/watch?v=9QiovWtGtq0}}
-      \item {Found that difference in traffic demand was higher for moderate users as compared to high-volume subscribers; Presented at CableLabs (Jul 2016) and FCC (Oct 2016).}
-%      
-      \item {\textbf{Fog Networks and the Internet of Things:} Teaching Assistant for Coursera MOOC.
+%
+      \item {\textbf{Teaching Assistant:} Developed material for Fog Networks and the Internet of Things, Coursera MOOC.
       		\link{https://online.princeton.edu/course/fog-networks-and-internet-things}}
+%      \item {TA for ... }
 %        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
 %        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
 %        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
@@ -88,8 +94,8 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Advisers: Jason Livingood (VP, Comcast) and Nirmal Mody (Manager, Comcast)}
 %      
-      \item {Customer Owned and Managed (COAM) Internet of Things (IoT) security: Used DPI to study connectivity, security, and privacy of a subset of Comcast smart homes.}
-      \item {Developed script to search for PII in unencrypted IoT data and identified a malfunctioning XBOX in one of the subscribers.}
+      \item {Customer Owned and Managed (COAM) Internet of Things (IoT) security: Used DPI to study connectivity, security, and privacy of a subset of Comcast smart homes. Developed a script to search for PII in unencrypted IoT data.}
+      \item {Used DNS queries to filter smart homes. Identified a misconfigured XBOX for one subscriber by correlating IoT packet captures.}
 %      
 %        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
 %        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
@@ -106,23 +112,23 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Advisers: Prof. Nick Feamster (University of Chicago) and Prof. Renata Teixeira (INRIA Paris)}
 %      
-      \item {\textbf{Analysis of home network availability, infrastructure, and traffic using BISmark:} Analyzed active and passive network data from multiple homes to study network availability in various countries, popular devices in homes, and traffic usage with time.
+      \item {\textbf{Analysis of home network availability, infrastructure, and traffic:} Analyzed active and passive network traces from multiple homes to study network availability in various countries, popular devices in homes, and traffic usage with time.
       		\link{https://www.lincs.fr/events/peeking-behind-the-nat-an-empirical-study-of-home-networks/}}
-      \item {Found most home traffic is exchanged from a few devices to a small number of popular domains.}
-%      
-      \item {\textbf{HTPT:} Built and deployed an HTTP pluggable transport protocol to avoid censorship and detection for Tor.
-      		\link{https://github.com/gsathya/htpt}}
-      \item {Responsibilities included parallelizing code, implementing framing buffers, and unit testing the system (team of 6).}
-%      
-      \item {\textbf{QoS control using SDN for home networks:} Identified application and programmed appropriate rate shaper based on a set of filtering rules to map traffic to outgoing network flow.
-     		\link{https://dl.acm.org/citation.cfm?doid=2620728.2620766}}
+      \item {Discovered most home traffic is exchanged to a small number of domains, and home network usage differs based on the device.}
+      \item {Analyzed prevalence and persistence of traceroutes to a variety of Internet destinations from the perspective of access points.}
+%      \item {Examined route persistence and prevalence. Presented talk at AIMS, CAIDA.}
 %     		
-      \item {\textbf{SAZO: Constant guard for home network security:} Used bloom-filters and DPI on home routers to create a blacklist based malware identification and notification system for Comcast.
-      		\link{https://studyres.com/doc/8758286/panoptes--detecting-malware-activity-in-home-networks-sar}}
-%      		
-%      \item {\textbf{Browserlab: Home network diagnosis for performance bottleneck detection:} Tested uplink and downlink broadband performance from devices to detect if bottleneck is in the local wireless network or at the edge router.}
-%      		
-      \item {\textbf{Analysis of end-to-end routing behavior:} Analyzed traceroute data from access networks to a variety of Internet destinations and examined route persistence and prevalence. Presented talk at AIMS, CAIDA.}
+      \item {\textbf{SAZO:} Built and deployed a blacklist based malware identification and notification system on the home router.
+      		\link{https://sarthakgrover.github.io/project/sazo/}}
+      \item {Used bloom-filters to index malicious IPs and perform quick look-ups on packet headers before redirecting traffic to DPI boxes.}
+%      
+      \item {\textbf{Facade:} Built and deployed an HTTP pluggable transport protocol to avoid censorship and detection for Tor.
+      		\link{https://github.com/shahifaqeer/facade}}
+      \item {Responsibilities included parallelizing code, implementing framing buffers, and unit testing the system in a team of 6 students.}
+%      
+      \item {\textbf{QoS control using SDN:} Identified application and used SDNs to program appropriate rate shaper and control network flow.}
+      \item {Identified traffic using a DNS classifier and demonstrated ad-block for the whole home using FlowQoS at the access point.
+     		\link{https://sarthakgrover.github.io/project/flowqos/}}
 %      \item {Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).}
 %      \item {Built and deployed overall service infrastructure utilizing Docker container, CircleCI, and several AWS stack(Including EC2, ECS, Route 53, S3, CloudFront, RDS, ElastiCache, IAM), focusing on high-availability, fault tolerance, and auto-scaling.}
 %      \item {Developed an easy-to-use Payment module which connects to major PG(Payment Gateway) companies in Korea.}
@@ -139,7 +145,8 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Advisers: Prof. Renata Teixeira (INRIA Paris) and Dr. Christian Kreibich (ICSI Berkley).}
 %      
-      \item {Home network diagnosis for performance bottleneck detection: Tested uplink and downlink broadband performance from devices to detect if bottleneck is in the local wireless network or at the edge router.}
+      \item {Browserlab: Home network diagnosis for performance bottleneck detection: Tested uplink and downlink broadband performance between devices, gateways, and online servers to detect if the bottleneck is in the local wireless network or at the edge router.}
+%      \item {\textbf{Browserlab:}. \link{}}
 %      
 %        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
 %        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
@@ -173,7 +180,7 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Adviser: Prof. Injong Rhee (VP - IoT, Google).}
 %      
-      \item {Indoor Localization for Samsung Smartphones using Radio: Implemented FM/AM transceiver systems on GNURadio to utilize RDS information for indoor localization.}
+      \item {Indoor Localization for Samsung Smartphones using Radio: Implemented FM/AM transceiver systems on GNURadio to utilize the time difference in RDS information for performing accurate indoor localization on smart phones.}
 %      
 %        \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
 %        \item {Implemented a distributed web stress test tool with high anonymity.}
@@ -191,14 +198,32 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Adviser: Prof. Anurag Kumar (Director, IISc Bangalore).}
 %      
-      \item {\textbf{WSNs for Societal Needs and Disaster Management:} Prepared work-plan proposal for submission to the Department of Science and Technology (DST), Govt of India.}
-      \item {Computed closed-formed expressions for network reliability, and evaluated information theoretic bounds for random hybrid networks.}
-      \item {Studied tessellation algorithm for WSN drop and placement to ensure end-to-end connectivity in the wild.}
+      \item {WSNs for Societal Needs and Disaster Management: Prepared work-plan proposal for submission to the Department of Science and Technology (DST), Govt of India.}
+      \item {Computed closed-formed expressions for network reliability for regular hexagonal network topology.}
+      \item {Evaluated information-theoretic bounds on network reliability for random hybrid network topology.}
+%      \item {Studied tessellation algorithm for WSN drop and placement to ensure end-to-end connectivity in the wild.}
 %      
-      \item {\textbf{SmartConnect: DIT-ASTEC WSN Project}: Deployment of industrial wireless sensor networks, project demonstrations and experimental data analysis.}
+%      \item {\textbf{SmartConnect: DIT-ASTEC WSN Project}: Deployment of industrial wireless sensor networks, project demonstrations, and experimental data analysis.}
       \end{cvitems}
     }
-    
+
+%---------------------------------------------------------
+  \cventry
+    {Research Intern} % Job title
+    {University of New South Wales} % Organization
+    {Sydney, AUSTRALIA} % Location
+    {May. 2009 -- Aug. 2009} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Adviser: Prof. Vijay Sivaraman (UNSW)}
+%      
+      \item {Wireless Body Area Networks for Athlete Monitoring: Analyzed time-series experimental data collected from wireless bio-medical sensors. Developed encounter based model to capture user mobility, and generate synthetic network topologies.
+      		\link{https://sarthakgrover.github.io/publication/mobility-soccer2010.pdf}}
+      \item {Modeled the evolution of connectivity with time, and computed correlation of connectivity using Cholesky decomposition.}
+      \item {Evaluated the connectivity model using Kolmogorov-Smirnov (K-S) test. Publication awarded Best Paper at WiMob 2010.}
+    \end{cvitems}
+    }
+
 %%---------------------------------------------------------
 %  \cventry
 %    {Graduate Research Assistant} % Job title
@@ -212,18 +237,6 @@
 %    \end{cvitems}
 %    }
 %    
-%%---------------------------------------------------------
-%  \cventry
-%    {Research Intern} % Job title
-%    {University of New South Wales} % Organization
-%    {Sydney, AUSTRALIA} % Location
-%    {May. 2009 -- Aug. 2009} % Date(s)
-%    {
-%      \begin{cvitems} % Description(s) of tasks/responsibilities
-%     \item {Mentor: Prof. Vijay Sivaraman}
-%     \item {Wireless Body Area Networks for Athlete Monitoring: Analyzed time-series experimental data collected from wireless bio-medical sensors. Developed encounter based model to capture user mobility, and generate synthetic network topologies.}
-%    \end{cvitems}
-%    }
 %---------------------------------------------------------
 \end{cventries}
 
